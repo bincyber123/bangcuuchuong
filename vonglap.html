@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1> Bang cuu chuong </h1>
+<script>
+    let sout, i, j;
+    sout = "<table border='1'>";
+
+    for (i = 1; i <= 9; i++) {
+        sout = sout + "<tr>";
+        for (j = 2; j <= 9; j++) {
+            sout += "<td>" + j + "*" + i + "=" + i * j + "</td>";
+        }
+        sout = sout + "</tr> "+" "
+        // j = 1;
+    }
+    sout = sout + "</table>";
+    document.write(sout);
+</script>
+
+</body>
+</html>
